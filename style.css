@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+.div0{
+    height: 500px;
+    width: 400px;
+    background-color: white;
+    margin-left: 470px;
+}
+input{
+    height: 40px;
+    width: 190px;
+}
+.div1,.div2{
+    margin-left: 10px;
+}

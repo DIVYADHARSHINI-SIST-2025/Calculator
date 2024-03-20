@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <script src="./design.js"></script>
+    
+    <h1 style="color: white; text-align: center;">CALCULATOR</h1>
+   
+    <div class="div0">
+     
+        <h4 style="padding: 20px;">N1 <input style="margin-left: 100px;" type="number" id="num1"></h4>
+       
+        <h4 style="padding-left: 20px;">N2 <input style="margin-left: 100px;" type="number" id="num2"></h4> 
+        <h4 style="padding: 20px;">RESULT <input style="margin-left: 60px;" type="number" id="num"></h4>
+        <div class="div1"> 
+          <input type="submit" value="add" onclick="addition()">
+          <input type="submit" value="sub" onclick="subtraction()">
+        </div>
+        <div class="div2">
+            <input type="submit" value="mul" onclick="multiplication()">
+            <input type="submit" value="divi" onclick="division()">
+        </div>
+        <center>
+       <input style="margin: 20px;" type="reset" value="Reset" onclick="window.location.reload()">
+    </center>
+    </div>
+
+
+</body>
+</html>
